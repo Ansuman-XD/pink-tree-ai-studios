@@ -62,14 +62,14 @@ const AIToolsSection = () => {
           </AnimatedSection>
           <AnimatedSection delay={0.1}>
             <h2 className="section-title mb-6">
-              Supercharge Your Marketing with{" "}
-              <span className="gradient-text">AI Power</span>
+              Our Secret Weapon:{" "}
+              <span className="gradient-text">AI-Powered Tools</span>
             </h2>
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <p className="section-subtitle mx-auto">
-              Our proprietary AI tools help you create better content, faster campaigns,
-              and smarter strategies. All powered by cutting-edge machine learning.
+              We use these proprietary AI tools behind the scenes to craft better ads,
+              write sharper copy, and optimize your campaigns for maximum performance.
             </p>
           </AnimatedSection>
         </div>
@@ -141,7 +141,7 @@ const AIToolsSection = () => {
         <AnimatedSection delay={0.6}>
           <div className="text-center mt-16">
             <p className="text-muted-foreground mb-6">
-              Want access to all our AI tools?
+              Want us to run AI-optimized campaigns for your brand?
             </p>
             <motion.a
               href="#contact"
@@ -149,7 +149,7 @@ const AIToolsSection = () => {
               whileTap={{ scale: 0.98 }}
               className="btn-primary inline-flex items-center gap-2"
             >
-              <span className="relative z-10">Get Full Access</span>
+              <span className="relative z-10">Let's Talk</span>
               <ArrowRight className="w-5 h-5 relative z-10" />
             </motion.a>
           </div>

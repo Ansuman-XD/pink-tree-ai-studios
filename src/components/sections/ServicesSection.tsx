@@ -27,10 +27,10 @@ const services = [
   },
   {
     icon: Bot,
-    title: "AI Promotion",
+    title: "AI-Enhanced Campaigns",
     description:
-      "Leverage our proprietary AI tools to automate and optimize your marketing campaigns.",
-    features: ["AI Copywriting", "Smart Targeting", "Auto-Optimization"],
+      "We use AI tools to optimize your ad copy, targeting, and performance—so every rupee works harder.",
+    features: ["AI Copywriting", "Smart Targeting", "Performance Optimization"],
   },
   {
     icon: Megaphone,
@@ -74,14 +74,14 @@ const ServicesSection = () => {
           </AnimatedSection>
           <AnimatedSection delay={0.1}>
             <h2 className="section-title mb-6">
-              Everything You Need to{" "}
-              <span className="gradient-text">Dominate Digital</span>
+              Full-Service{" "}
+              <span className="gradient-text">Advertising Solutions</span>
             </h2>
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <p className="section-subtitle mx-auto">
-              From strategy to execution, we provide end-to-end digital marketing
-              solutions powered by AI and driven by creativity.
+              From strategy to execution, we handle your entire advertising pipeline—
+              enhanced by AI for faster, smarter results.
             </p>
           </AnimatedSection>
         </div>

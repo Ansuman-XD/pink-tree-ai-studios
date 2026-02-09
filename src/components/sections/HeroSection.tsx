@@ -48,7 +48,7 @@ const HeroSection = () => {
         >
           <Sparkles className="w-4 h-4 text-primary" />
           <span className="text-sm font-medium text-muted-foreground">
-            AI-Powered Digital Agency
+            Creative Advertising Agency
           </span>
         </motion.div>
 
@@ -59,11 +59,11 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-display-xl font-bold tracking-tight mb-6 text-balance"
         >
-          <span className="text-foreground">Transform Your Brand</span>
+          <span className="text-foreground">Advertising That</span>
           <br />
-          <span className="gradient-text glow-text">With AI-Powered</span>
+          <span className="gradient-text glow-text">Drives Results</span>
           <br />
-          <span className="text-foreground">Growth</span>
+          <span className="text-foreground">Using AI</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -73,8 +73,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-balance"
         >
-          We craft exceptional digital experiences using cutting-edge AI technology.
-          Elevate your social presence, automate your marketing, and scale your brand.
+          We're a creative advertising agency that uses AI to supercharge your campaigns.
+          Better ads, smarter targeting, and real growth for your brand.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -85,13 +85,13 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <motion.a
-            href="#ai-tools"
+            href="#services"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="btn-primary group flex items-center gap-2"
           >
             <Sparkles className="w-5 h-5" />
-            <span className="relative z-10">Try AI Tools</span>
+            <span className="relative z-10">Our Services</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform relative z-10" />
           </motion.a>
           
