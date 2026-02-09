@@ -50,7 +50,7 @@ const Footer = () => {
               </span>
             </a>
             <p className="text-muted-foreground mb-6 max-w-sm">
-              AI-Powered Growth for Modern Brands. We craft digital experiences
+              Creative advertising powered by AI. We craft campaigns
               that elevate your brand and drive real results.
             </p>
             <div className="flex items-center gap-4">
@@ -88,7 +88,7 @@ const Footer = () => {
 
           {/* AI Tools Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">AI Tools</h4>
+            <h4 className="font-semibold text-foreground mb-4">Our Edge</h4>
             <ul className="space-y-3">
               {footerLinks.tools.map((link) => (
                 <li key={link.name}>

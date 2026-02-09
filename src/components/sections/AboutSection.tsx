@@ -6,20 +6,20 @@ import GlowOrb from "../GlowOrb";
 const stats = [
   { number: "500+", label: "Projects Delivered" },
   { number: "98%", label: "Client Satisfaction" },
-  { number: "50+", label: "AI Tools Built" },
+  { number: "50+", label: "Campaigns Launched" },
   { number: "10M+", label: "Reach Generated" },
 ];
 
 const values = [
   {
     icon: Rocket,
-    title: "Innovation First",
-    description: "We leverage cutting-edge AI to deliver results that were impossible before.",
+    title: "Creative Excellence",
+    description: "Award-worthy campaigns that capture attention and drive action.",
   },
   {
     icon: Target,
-    title: "Results Driven",
-    description: "Every strategy is backed by data and designed to maximize your ROI.",
+    title: "Data-Driven Ads",
+    description: "Every campaign is backed by data and optimized for maximum ROI.",
   },
   {
     icon: Users,
@@ -28,8 +28,8 @@ const values = [
   },
   {
     icon: Zap,
-    title: "Speed & Scale",
-    description: "AI-powered workflows that deliver enterprise results at startup speed.",
+    title: "AI-Enhanced Speed",
+    description: "We use AI to work faster and smarter—so your campaigns launch sooner.",
   },
 ];
 
@@ -55,8 +55,8 @@ const AboutSection = () => {
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <p className="section-subtitle mx-auto">
-              A next-generation digital agency that combines human creativity with AI power
-              to help brands thrive in the digital age.
+              A creative advertising agency that harnesses AI to craft campaigns that
+              convert. We blend human creativity with smart technology to deliver real results.
             </p>
           </AnimatedSection>
         </div>
@@ -68,17 +68,17 @@ const AboutSection = () => {
             <div className="space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold">
                 Born from a passion for{" "}
-                <span className="gradient-text">innovation</span>
+                <span className="gradient-text">great advertising</span>
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Pink Tree Studios was founded with a simple vision: to democratize
-                access to premium digital marketing through the power of AI. We
-                believe every brand deserves to shine, regardless of size or budget.
+                Pink Tree Studios was founded with a simple vision: to create advertising
+                that actually works. We use AI as our secret weapon to craft smarter campaigns,
+                sharper targeting, and content that truly converts.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Our team of creative technologists, data scientists, and marketing
-                experts work together to build AI-powered solutions that deliver
-                real, measurable results for our clients.
+                Our team of creatives, strategists, and media buyers leverage AI tools
+                to deliver advertising results that outperform traditional agencies—faster
+                and more cost-effectively.
               </p>
               <div className="flex items-center gap-4 pt-4">
                 <motion.a

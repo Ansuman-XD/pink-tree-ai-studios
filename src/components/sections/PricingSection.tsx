@@ -9,12 +9,12 @@ const plans = [
     icon: Sparkles,
     price: "499",
     period: "/month",
-    description: "Perfect for small businesses and startups looking to grow their digital presence.",
+    description: "Perfect for small businesses looking to kickstart their advertising.",
     features: [
-      "Social Media Management (2 platforms)",
-      "8 Posts per month",
-      "Basic Analytics Dashboard",
-      "AI Caption Generator (50 uses/mo)",
+      "Social Media Ads (2 platforms)",
+      "8 Ad Creatives per month",
+      "Basic Performance Reports",
+      "AI-Optimized Ad Copy",
       "Email Support",
       "Monthly Strategy Call",
     ],
@@ -27,15 +27,15 @@ const plans = [
     icon: Zap,
     price: "999",
     period: "/month",
-    description: "For growing brands that need comprehensive marketing and AI-powered tools.",
+    description: "For growing brands that need full-funnel advertising and campaign management.",
     features: [
-      "Social Media Management (4 platforms)",
-      "20 Posts per month",
+      "Multi-Platform Ad Campaigns (4 platforms)",
+      "20 Ad Creatives per month",
       "Advanced Analytics & Reports",
-      "All AI Tools (Unlimited)",
+      "AI-Powered Targeting & Optimization",
       "Priority Support (24/7)",
       "Weekly Strategy Calls",
-      "Ad Campaign Management",
+      "Full Campaign Management",
       "Content Calendar Planning",
     ],
     cta: "Start Growing",
@@ -47,15 +47,15 @@ const plans = [
     icon: Crown,
     price: "Custom",
     period: "",
-    description: "Tailored solutions for large organizations with complex marketing needs.",
+    description: "Tailored advertising solutions for large organizations with complex needs.",
     features: [
-      "Unlimited Platform Management",
-      "Unlimited Content Creation",
-      "Custom AI Tool Development",
+      "Unlimited Platform Advertising",
+      "Unlimited Creative Production",
+      "Custom AI Campaign Strategies",
       "Dedicated Account Manager",
-      "White-label Solutions",
-      "API Access",
-      "Custom Integrations",
+      "White-label Reporting",
+      "Media Buying & Planning",
+      "Cross-Channel Attribution",
       "On-site Training",
       "SLA Guarantee",
     ],
@@ -89,8 +89,8 @@ const PricingSection = () => {
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <p className="section-subtitle mx-auto">
-              Choose the perfect plan for your brand. All plans include our core
-              AI tools and dedicated support.
+              Choose the perfect plan for your brand. All plans include AI-enhanced
+              campaigns and dedicated support.
             </p>
           </AnimatedSection>
         </div>

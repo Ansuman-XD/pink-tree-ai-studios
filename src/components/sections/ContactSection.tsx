@@ -84,8 +84,8 @@ const ContactSection = () => {
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <p className="section-subtitle mx-auto">
-              Ready to transform your brand? Get in touch and let's discuss how
-              we can help you achieve your goals.
+              Ready to run smarter campaigns? Get in touch and let's discuss how
+              our AI-powered advertising can grow your brand.
             </p>
           </AnimatedSection>
         </div>
