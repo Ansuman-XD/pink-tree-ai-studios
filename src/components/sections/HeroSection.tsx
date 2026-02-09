@@ -1,41 +1,23 @@
+import { Suspense } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles, Play } from "lucide-react";
 import GlowOrb from "../GlowOrb";
-import heroBg from "@/assets/hero-bg.jpg";
+import HeroScene from "../HeroScene";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
-      <div className="absolute inset-0 bg-background/70" />
-      
-      {/* Animated Grid */}
-      <div className="absolute inset-0 bg-grid opacity-20" />
-      
+      {/* 3D Scene Background */}
+      <div className="absolute inset-0 bg-background">
+        <Suspense fallback={null}>
+          <HeroScene />
+        </Suspense>
+      </div>
+      <div className="absolute inset-0 bg-background/40" />
+
       {/* Glow Orbs */}
       <GlowOrb className="top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2" color="pink" size="xl" />
       <GlowOrb className="bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2" color="purple" size="lg" />
-      
-      {/* Floating Elements */}
-      <motion.div
-        className="absolute top-1/4 right-1/4 w-4 h-4 rounded-full bg-primary"
-        animate={{ y: [-20, 20, -20], rotate: [0, 180, 360] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute bottom-1/3 left-1/4 w-3 h-3 rounded-full bg-secondary"
-        animate={{ y: [20, -20, 20], rotate: [360, 180, 0] }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute top-1/2 right-1/3 w-2 h-2 rounded-full bg-primary/50"
-        animate={{ scale: [1, 1.5, 1], opacity: [0.5, 1, 0.5] }}
-        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-      />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 md:px-12 text-center">
